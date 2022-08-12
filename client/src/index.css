@@ -1,0 +1,106 @@
+#apppage .gradient {
+    background: -moz-linear-gradient(
+      45deg,
+      rgba(42, 27, 161, 0.7),
+      rgba(29, 210, 177, 0.7) 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      rgba(42, 27, 161, 0.7),
+      rgba(29, 210, 177, 0.7) 100%
+    );
+    background: -webkit-gradient(
+      linear,
+      45deg,
+      from(rgba(42, 27, 161, 0.7)),
+      to(rgba(29, 210, 177, 0.7))
+    );
+    background: -o-linear-gradient(
+      45deg,
+      rgba(42, 27, 161, 0.7),
+      rgba(29, 210, 177, 0.7) 100%
+    );
+    background: linear-gradient(
+      45deg,
+      rgba(42, 27, 161, 0.7),
+      rgba(29, 210, 177, 0.7) 100%
+    );
+  }
+  
+  #apppage .view {
+    background-image: url("https://mdbootstrap.com/img/Photos/Others/architecture.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+  }
+  
+  #apppage h6 {
+    line-height: 1.7;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    #apppage .animated img {
+      max-height: 50vh;
+      transform: translateX(-50%);
+      left: 50%;
+      position: absolute;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    #apppage .animated img {
+      max-height: 35vh;
+      transform: translateX(-50%);
+      left: 50%;
+    }
+  }
+  
+  @media (max-width: 767px) and (orientation: landscape) {
+    #apppage .animated img {
+      max-height: 50vh;
+      transform: translateX(-50%);
+      left: 50%;
+      position: relative;
+    }
+  }
+  @media (max-width: 1000px) and (orientation: landscape) {
+    #apppage .view {
+      min-height: 150vh;
+    }
+  }
+
+.text-light:hover{
+    text-emphasis-color: yellow;
+
+}
+.cascading-right {
+    margin-right: -50px;
+  }
+  
+  @media (max-width: 991.98px) {
+    .cascading-right {
+      margin-right: 0;
+    }
+  }
+
+  .hpimage {
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* 
+.carousel-inner .carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+  } */
+
+.btndress{
+  color: #000;
+
+}

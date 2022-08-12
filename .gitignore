@@ -1,0 +1,6 @@
+api/node_modules
+client/node_modules
+api/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node
+
+
+
