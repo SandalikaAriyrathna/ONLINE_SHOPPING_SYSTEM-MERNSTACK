@@ -27,6 +27,12 @@ export default function WomanWear(props) {
     return (
         <div>
             <Header />
+            <div
+            className="hpimage"
+            style={{
+            backgroundImage: "url('https://img.freepik.com/free-vector/realistic-studio-lights-empty-background-design_1017-27233.jpg?w=2000')",height: "110vh"
+            }}
+            >
             <br /><br />
 
             <div class="container">
@@ -55,6 +61,7 @@ export default function WomanWear(props) {
     </div>
    
   </div>
+</div>
 </div>
             
           
